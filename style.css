@@ -1,0 +1,91 @@
+body {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsla(0, 0%, 100%, 0.75);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 750px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    min-height: 350px;
+    min-width: 50px;
+}
+
+.sedans {
+    background: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    /* margin-top: 10px; */
+    padding: 10px 20px;
+    border: 2px solid white;
+    background: hsl(0, 0%, 95%);
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.sedans .btn:hover,
+.suvs .btn:hover,
+.luxury .btn:hover {
+    background: transparent;
+    color: white;
+}
+
+.sedans .btn {
+    color: hsl(31, 77%, 52%);
+    border-radius: 50px;
+}
+
+.suvs .btn {
+    color: hsl(184, 100%, 22%);
+    border-radius: 50px;
+}
+
+.luxury .btn {
+    color: hsl(179, 100%, 13%);
+    border-radius: 50px;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
